@@ -8,7 +8,7 @@ This lab demonstrates the deployment, configuration, and monitoring of a cloud-b
 ## 🏗️ Cloud Infrastructure (Microsoft Azure)
 
 ### Resource Management & FinOps
-All resources were organized within a centralized Resource Group to ensure administrative efficiency. I implemented **Cloud Governance** by configuring an **Auto-shutdown policy** (7:00 PM EST) for all virtual assets to optimize costs and follow sustainability best practices.
+All resources were organized within a centralized Resource Group to ensure administrative efficiency. I implemented **Cloud Governance** by configuring an **Auto-shutdown policy** (11:00 PM EST) for all virtual assets to optimize costs and follow sustainability best practices.
 
 ![Resource Group Overview](images/resource-group.png)
 ![Auto-shutdown Policy](images/auto-shutdown.png)
