@@ -118,7 +118,9 @@ A key objective of this lab was identifying and correlating security events with
 | **Password Reset (Admin)** | 4724 | Detecting potential unauthorized credential changes. |
 | **Privilege Assignment** | 4672 | Monitoring for administrative "SuperUser" logins. |
 
-![Windows Security Logs](images/event-viewer.png)
+> Event Viewer
+>
+> <img src="images/event-viewer.png" alt="Event Viewer Screenshot" width="60%">
 
 ---
 
