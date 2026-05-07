@@ -29,6 +29,7 @@ I provisioned a Windows Server instance as the **Domain Controller** for the `co
 ![AD DS Installation](images/adds.png)
 ![Forest Configuration](images/forest.png)
 ![Domain Properties](images/dc-props.png)
+![Active Directory Domain Overview](corp.local.png)
 
 ### User Management & RBAC
 I created an **Organizational Unit (OU)** structure to logically segment users. To simulate real-world identity management, I provisioned several test accounts and implemented **Role-Based Access Control (RBAC)** by managing permissions through Security Groups.
