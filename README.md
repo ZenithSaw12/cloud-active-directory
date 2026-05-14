@@ -1,11 +1,11 @@
 # Cloud Identity & Security Monitoring Lab: Microsoft Azure & Active Directory
 
-## 🎯 Project Objective
+## Project Objective
 This lab demonstrates the deployment, configuration, and monitoring of a cloud-based **Hybrid Identity Environment**. By utilizing **Microsoft Azure**, **Windows Server**, and **Active Directory Domain Services (AD DS)**, I established a secure corporate network architecture. The primary focus was on user lifecycle management, Role-Based Access Control (RBAC), and analyzing security telemetry via the Windows Event Viewer to simulate a SOC Analyst's investigation workflow.
 
 ---
 
-## 🏗️ Cloud Infrastructure (Microsoft Azure)
+## Cloud Infrastructure (Microsoft Azure)
 
 ### Resource Management
 All resources were organized within a centralized Resource Group (AD-Lab) to ensure administrative efficiency. I implemented **Cloud Governance** by configuring an **Auto-shutdown policy** (11:00 PM EST) for all virtual assets to optimize costs and follow sustainability best practices.
@@ -31,7 +31,7 @@ The environment consists of two virtual machines: a Domain Controller (DC01) and
 
 ---
 
-## 🛠️ Active Directory Configuration
+## Active Directory Configuration
 
 ### Domain Services Deployment
 I provisioned a Windows Server instance as the **Domain Controller** for the `corp.local` forest. This involved the installation of AD DS and the configuration of internal DNS to handle domain-wide name resolution.
@@ -79,7 +79,7 @@ I created an **Organizational Unit (OU)** structure to logically segment users. 
 
 ---
 
-## 🧪 Testing & Verification
+## Testing & Verification
 
 ### Domain Integration
 The Client VM was successfully joined to the `corp.local` domain. Connection was verified using `ping` and `nslookup` to ensure proper communication between the workstation and the DC.
@@ -106,7 +106,7 @@ Verified the "Alice" account's ability to log in to the domain environment and a
 
 ---
 
-## 🛡️ Security Monitoring (SOC Perspective)
+## Security Monitoring (SOC Perspective)
 
 A key objective of this lab was identifying and correlating security events within the **Windows Event Viewer**. This simulates the telemetry analysis performed by SOC analysts during incident response.
 
@@ -124,8 +124,8 @@ A key objective of this lab was identifying and correlating security events with
 
 ---
 
-## 🚀 Skills & Tools Demonstrated
-* **Cloud Platform:** Microsoft Azure (VNets, NSGs, Resource Groups, FinOps Governance).
+## Skills & Tools Demonstrated
+* **Cloud Platform:** Microsoft Azure (VNets, NSGs, Resource Groups).
 * **Identity Management:** Active Directory Domain Services (AD DS), OU Design, User Lifecycle Management.
 * **Networking:** DNS Configuration, DHCP, CIDR Subnetting, Troubleshooting (Ping, Nslookup).
 * **Security & Compliance:** Role-Based Access Control (RBAC), Least Privilege Principle, NIST CSF/CIS Control Mapping.
